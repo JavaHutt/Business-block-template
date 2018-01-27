@@ -124,15 +124,21 @@
     color: #417630;
 }
 .list-columns {
-    margin: 15px;    
+    margin: 15px;
+    display: table;    
+}
+.about-company__columns {
+    display: table-row;
 }
 .about-company__left-list {
     padding: 15px;
+    display: table-cell;
 }
 .about-company__right-list {
     padding: 15px;
+    display: table-cell;
 }
-.about-company__list_square {
+.about-company__list_disc {
     list-style: disc;   
     font-weight: 300;
 }
